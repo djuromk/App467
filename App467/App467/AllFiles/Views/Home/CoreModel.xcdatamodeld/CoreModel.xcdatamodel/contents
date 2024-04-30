@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="22G513" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="CarsModel" representedClassName="CarsModel" syncable="YES" codeGenerationType="class">
+        <attribute name="carDriver" optional="YES" attributeType="String"/>
+        <attribute name="carLastService" optional="YES" attributeType="String"/>
+        <attribute name="carMarkModel" optional="YES" attributeType="String"/>
+        <attribute name="carMileage" optional="YES" attributeType="String"/>
+        <attribute name="carNextService" optional="YES" attributeType="String"/>
+        <attribute name="carPlate" optional="YES" attributeType="String"/>
+        <attribute name="carStatus" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="OrdersModel" representedClassName="OrdersModel" syncable="YES" codeGenerationType="class">
+        <attribute name="dropLocation" optional="YES" attributeType="String"/>
+        <attribute name="orderDriver" optional="YES" attributeType="String"/>
+        <attribute name="orderFare" optional="YES" attributeType="String"/>
+        <attribute name="orderID" optional="YES" attributeType="String"/>
+        <attribute name="orderStatus" optional="YES" attributeType="String"/>
+        <attribute name="orderVehicle" optional="YES" attributeType="String"/>
+        <attribute name="pickLocation" optional="YES" attributeType="String"/>
+        <attribute name="timePickUp" optional="YES" attributeType="String"/>
+    </entity>
+</model>
